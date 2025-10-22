@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Author: Thiago Lahr
+# Author: Thiago Canozzo Lahr
 # Repository: https://github.com/tclahr/homelab
 # License: Apache License 2.0
 #
