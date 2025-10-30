@@ -90,8 +90,8 @@ log "Backup ID: ${BACKUP_ID}"
 
 # Perform backup
 if proxmox-backup-client backup \
-  etc-pve-"${DATE}".pxar:/etc/pve \
-  etc-network-"${DATE}".pxar:/etc/network \
+  etc-"${DATE}".pxar:/etc \
+  crontabs-"${DATE}".pxar:/var/spool/cron \
   --repository "${PBS_REPOSITORY}" \
   --backup-id "${BACKUP_ID}"
 then
